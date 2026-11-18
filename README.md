@@ -28,7 +28,7 @@ curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/antigravity-claude-sk
 Or clone and link it manually:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/antigravity-claude-skills.git ~/.gemini/config/plugins/antigravity-claude-skills
+git clone https://github.com/SANOOPKCT/antigravity-claude-skills.git ~/.gemini/config/plugins/antigravity-claude-skills
 ```
 
 Once installed, all 67 skills are **instantly active** across all your projects and workspaces. No restart required!
