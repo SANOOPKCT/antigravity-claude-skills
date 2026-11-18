@@ -22,7 +22,7 @@
 Install this plugin globally into your Antigravity environment (`~/.gemini/config/plugins/`) with a single command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/antigravity-claude-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/SANOOPKCT/antigravity-claude-skills/main/install.sh | bash
 ```
 
 Or clone and link it manually:
