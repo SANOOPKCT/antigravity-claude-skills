@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="gradient-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#DB2777" />
+    </linearGradient>
+    <linearGradient id="orbit-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.3" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded card -->
+  <rect width="120" height="120" rx="26" fill="url(#gradient-bg)" />
+
+  <!-- Outer orbital ring -->
+  <circle cx="60" cy="60" r="42" fill="none" stroke="url(#orbit-glow)" stroke-width="2" stroke-dasharray="6 4" opacity="0.6"/>
+
+  <!-- Orbital ellipse (representing antigravity physics) -->
+  <ellipse cx="60" cy="60" rx="46" ry="20" fill="none" stroke="#FDE047" stroke-width="2.5" transform="rotate(-28 60 60)" opacity="0.85" />
+  
+  <!-- Planet node on orbit -->
+  <circle cx="21" cy="40" r="4.5" fill="#FDE047" filter="url(#glow)" />
+  <circle cx="99" cy="80" r="3" fill="#67E8F9" filter="url(#glow)" />
+
+  <!-- Central core spark/diamond -->
+  <g transform="translate(60,60)">
+    <!-- 4-point sparkle core -->
+    <path d="M 0 -22 C 0 -6 6 0 22 0 C 6 0 0 6 0 22 C 0 6 -6 0 -22 0 C -6 0 0 -6 0 -22 Z" fill="#FFFFFF" filter="url(#glow)"/>
+    <!-- Center gem accent -->
+    <circle cx="0" cy="0" r="5" fill="#38BDF8" />
+  </g>
+</svg>

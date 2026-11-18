@@ -1,0 +1,16 @@
+{
+  "name": "antigravity-claude-skills",
+  "displayName": "Claude Skills Pack (67 Skills)",
+  "description": "67 production-grade engineering skills for Google Antigravity: Frontend, Backend, Cloud, DevOps, Database, AI/ML, and Security Architectures.",
+  "version": "1.0.0",
+  "author": "Antigravity Community",
+  "license": "MIT",
+  "logo": "assets/icon.svg",
+  "suggestedPrompts": [
+    "Design an enterprise Next.js App Router architecture with server components",
+    "Review my code for OWASP Top 10 vulnerabilities and security hardening",
+    "Generate production Kubernetes manifests with HPA and PodDisruptionBudgets",
+    "Diagnose PostgreSQL query performance and recommend optimal indexes",
+    "Build a high-performance FastAPI service with Pydantic v2 and async SQL"
+  ]
+}
